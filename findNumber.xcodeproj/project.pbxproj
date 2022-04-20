@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FB1E9EC5280EA30300395CA1 /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1E9EC4280EA30200395CA1 /* SelectTimeViewController.swift */; };
+		FB1E9EC7280ED89B00395CA1 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1E9EC6280ED89B00395CA1 /* SettingsTableViewController.swift */; };
+		FB1E9EC9280EE50D00395CA1 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1E9EC8280EE50D00395CA1 /* Settings.swift */; };
 		FB384F4627FF59210083D5A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB384F4527FF59210083D5A6 /* AppDelegate.swift */; };
 		FB384F4827FF59210083D5A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB384F4727FF59210083D5A6 /* SceneDelegate.swift */; };
 		FB384F4D27FF59210083D5A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB384F4B27FF59210083D5A6 /* Main.storyboard */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		FB1E9EC4280EA30200395CA1 /* SelectTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeViewController.swift; sourceTree = "<group>"; };
+		FB1E9EC6280ED89B00395CA1 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		FB1E9EC8280EE50D00395CA1 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		FB384F4227FF59210083D5A6 /* findNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = findNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB384F4527FF59210083D5A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB384F4727FF59210083D5A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				FB6E6EBB280DB0B0002E6000 /* BlueViewController.swift */,
 				FB6E6EBD280DB459002E6000 /* GreenViewController.swift */,
 				FB1E9EC4280EA30200395CA1 /* SelectTimeViewController.swift */,
+				FB1E9EC6280ED89B00395CA1 /* SettingsTableViewController.swift */,
+				FB1E9EC8280EE50D00395CA1 /* Settings.swift */,
 			);
 			path = findNumber;
 			sourceTree = "<group>";
@@ -157,10 +163,12 @@
 				FBDDF76E27FF5C4700BC3AD5 /* GameViewController.swift in Sources */,
 				FB384F4827FF59210083D5A6 /* SceneDelegate.swift in Sources */,
 				FBDDF77027FF61C000BC3AD5 /* Game.swift in Sources */,
+				FB1E9EC9280EE50D00395CA1 /* Settings.swift in Sources */,
 				FB6E6EBC280DB0B0002E6000 /* BlueViewController.swift in Sources */,
 				FB6E6EBA280DAE6F002E6000 /* YellowViewController.swift in Sources */,
 				FB6E6EBE280DB459002E6000 /* GreenViewController.swift in Sources */,
 				FB1E9EC5280EA30300395CA1 /* SelectTimeViewController.swift in Sources */,
+				FB1E9EC7280ED89B00395CA1 /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

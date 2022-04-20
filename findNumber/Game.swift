@@ -50,10 +50,10 @@ class Game {
     
     private var updateTimer:((StatusGame, Int) -> Void)
     
-    init(countItems:Int, time:Int, updateTimer:@escaping(_ status:StatusGame,_ seconds:Int) -> ()) {
+    init(countItems:Int, updateTimer:@escaping(_ status:StatusGame,_ seconds:Int) -> ()) {
         self.countItems = countItems
-        self.secondsGame = time
-        self.timeForGame = time
+        self.secondsGame = Settings.shared.currentSettings.timeForGame
+        self.timeForGame = self.secondsGame
         self.updateTimer = updateTimer
         setupGame()
     }
@@ -70,9 +70,11 @@ class Game {
         
         updateTimer(status, secondsGame)
         
-        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { [weak self](_) in
-            self?.secondsGame -= 1
-        })
+        if Settings.shared.currentSettings.timerState {
+            timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { [weak self](_) in
+                self?.secondsGame -= 1
+            })
+        }
         
     }
     
